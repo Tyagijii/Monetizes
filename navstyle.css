@@ -3,7 +3,8 @@
   text-decoration-line: none;
 }
 body{
-  background-image: /background.jpg;
+  background : red;
+  background-image: background.jpg;
   background-size: 100%;
 }
 .header {
