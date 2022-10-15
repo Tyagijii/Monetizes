@@ -1,0 +1,94 @@
+* {
+  list-style: none;
+  text-decoration-line: none;
+}
+body{
+  background-image: url(/background.jpg);
+  background-size: 100%;
+}
+.header {
+/*  height: 3rem;
+  background-color: red;*/
+}
+
+.navigation {
+display: flex;
+}
+
+.menu {
+  padding-left: 5%;
+  line-height: 3rem;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+#home{
+  padding-left: 5rem;
+}
+#logo{
+  display: flex;
+  height: 3rem;
+  margin-left: 0px;
+  position: fixed;
+  left: 3px;
+  padding-left: 0px;
+}
+.card10{
+  height: 100px;
+  width: 100px;
+ /* display: flex;
+  flex-direction: column;*/
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-top: 5px;
+  background-color: wheat;
+  /*justify-content: center;
+  align-content: center;*/
+  margin-left: 30px;
+  margin-top: 75px;
+  box-shadow: 2px 3px 4px 0px white;
+  transition: 1s;
+}
+.card10:hover{
+  box-shadow: 4px 5px 9px 0px red;
+}
+.card{
+ /* display: flex;
+  flex-direction: column;*/
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+}
+a{
+  color: red;
+}
+.card11{
+  height: 100px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-top: 5px;
+  background-color: wheat;
+  justify-content: center;
+  align-content: center;
+  margin-left: 30px;
+  margin-top: 75px;
+  box-shadow: 2px 3px 4px 0px white;
+  transition: 1s;
+}
+.card11:hover{
+  box-shadow: 4px 5px 9px 0px red;
+}
+.a10{
+  height: 100px;
+  width: 100px;
+  margin-bottom: 25px
+}
+.a11{
+  height: 100px;
+  width: 100px;
+  margin-bottom: 25px;
+}
